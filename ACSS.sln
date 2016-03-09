@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ACSS", "ACSS", "{826F8914-D31A-4FDD-873F-E5EECA26BE74}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ACSS.Shared", "ACSS\ACSS.Shared\ACSS.Shared.vcxitems", "{BEB24780-A2E1-4F33-913A-057C469E0508}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ACSS.Windows", "ACSS\ACSS.Windows\ACSS.Windows.vcxproj", "{34099C42-944B-4C1B-BF9C-236915EB4896}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ACSS.WindowsPhone", "ACSS\ACSS.WindowsPhone\ACSS.WindowsPhone.vcxproj", "{739B8715-0A4B-4B86-A3DC-BD265D79F293}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ACSS\ACSS.Shared\ACSS.Shared.vcxitems*{34099c42-944b-4c1b-bf9c-236915eb4896}*SharedItemsImports = 4
+		ACSS\ACSS.Shared\ACSS.Shared.vcxitems*{739b8715-0a4b-4b86-a3dc-bd265d79f293}*SharedItemsImports = 4
+		ACSS\ACSS.Shared\ACSS.Shared.vcxitems*{beb24780-a2e1-4f33-913a-057c469e0508}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34099C42-944B-4C1B-BF9C-236915EB4896}.Debug|ARM.ActiveCfg = Debug|ARM
+		{34099C42-944B-4C1B-BF9C-236915EB4896}.Debug|ARM.Build.0 = Debug|ARM
+		{34099C42-944B-4C1B-BF9C-236915EB4896}.Debug|ARM.Deploy.0 = Debug|ARM
+		{34099C42-944B-4C1B-BF9C-236915EB4896}.Debug|x64.ActiveCfg = Debug|x64
+		{34099C42-944B-4C1B-BF9C-236915EB4896}.Debug|x64.Build.0 = Debug|x64
+		{34099C42-944B-4C1B-BF9C-236915EB4896}.Debug|x64.Deploy.0 = Debug|x64
+		{34099C42-944B-4C1B-BF9C-236915EB4896}.Debug|x86.ActiveCfg = Debug|Win32
+		{34099C42-944B-4C1B-BF9C-236915EB4896}.Debug|x86.Build.0 = Debug|Win32
+		{34099C42-944B-4C1B-BF9C-236915EB4896}.Debug|x86.Deploy.0 = Debug|Win32
+		{34099C42-944B-4C1B-BF9C-236915EB4896}.Release|ARM.ActiveCfg = Release|ARM
+		{34099C42-944B-4C1B-BF9C-236915EB4896}.Release|ARM.Build.0 = Release|ARM
+		{34099C42-944B-4C1B-BF9C-236915EB4896}.Release|ARM.Deploy.0 = Release|ARM
+		{34099C42-944B-4C1B-BF9C-236915EB4896}.Release|x64.ActiveCfg = Release|x64
+		{34099C42-944B-4C1B-BF9C-236915EB4896}.Release|x64.Build.0 = Release|x64
+		{34099C42-944B-4C1B-BF9C-236915EB4896}.Release|x64.Deploy.0 = Release|x64
+		{34099C42-944B-4C1B-BF9C-236915EB4896}.Release|x86.ActiveCfg = Release|Win32
+		{34099C42-944B-4C1B-BF9C-236915EB4896}.Release|x86.Build.0 = Release|Win32
+		{34099C42-944B-4C1B-BF9C-236915EB4896}.Release|x86.Deploy.0 = Release|Win32
+		{739B8715-0A4B-4B86-A3DC-BD265D79F293}.Debug|ARM.ActiveCfg = Debug|ARM
+		{739B8715-0A4B-4B86-A3DC-BD265D79F293}.Debug|ARM.Build.0 = Debug|ARM
+		{739B8715-0A4B-4B86-A3DC-BD265D79F293}.Debug|ARM.Deploy.0 = Debug|ARM
+		{739B8715-0A4B-4B86-A3DC-BD265D79F293}.Debug|x64.ActiveCfg = Debug|Win32
+		{739B8715-0A4B-4B86-A3DC-BD265D79F293}.Debug|x86.ActiveCfg = Debug|Win32
+		{739B8715-0A4B-4B86-A3DC-BD265D79F293}.Debug|x86.Build.0 = Debug|Win32
+		{739B8715-0A4B-4B86-A3DC-BD265D79F293}.Debug|x86.Deploy.0 = Debug|Win32
+		{739B8715-0A4B-4B86-A3DC-BD265D79F293}.Release|ARM.ActiveCfg = Release|ARM
+		{739B8715-0A4B-4B86-A3DC-BD265D79F293}.Release|ARM.Build.0 = Release|ARM
+		{739B8715-0A4B-4B86-A3DC-BD265D79F293}.Release|ARM.Deploy.0 = Release|ARM
+		{739B8715-0A4B-4B86-A3DC-BD265D79F293}.Release|x64.ActiveCfg = Release|Win32
+		{739B8715-0A4B-4B86-A3DC-BD265D79F293}.Release|x86.ActiveCfg = Release|Win32
+		{739B8715-0A4B-4B86-A3DC-BD265D79F293}.Release|x86.Build.0 = Release|Win32
+		{739B8715-0A4B-4B86-A3DC-BD265D79F293}.Release|x86.Deploy.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BEB24780-A2E1-4F33-913A-057C469E0508} = {826F8914-D31A-4FDD-873F-E5EECA26BE74}
+		{34099C42-944B-4C1B-BF9C-236915EB4896} = {826F8914-D31A-4FDD-873F-E5EECA26BE74}
+		{739B8715-0A4B-4B86-A3DC-BD265D79F293} = {826F8914-D31A-4FDD-873F-E5EECA26BE74}
+	EndGlobalSection
+EndGlobal
